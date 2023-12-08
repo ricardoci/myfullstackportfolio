@@ -1,0 +1,25 @@
+{
+    "name": "fullstackportfolio",
+    "version": "1.0.0",
+    "description": "",
+    "engines": {
+        "node": "v20.10.0",
+        "npm": "v10.2.5"
+    },
+    "main": "server/server.js",
+    "scripts": {
+        "start": "cd server && npm run start",
+        "develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
+        "install": "cd server && npm i && cd ../client && npm i",
+        "seed": "cd server && npm run seed",
+        "build": "cd client && npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^8.2.2",
+        "styled-components": "^5.3.11",
+        "webpack": "^5.89.0"
+    }
+}

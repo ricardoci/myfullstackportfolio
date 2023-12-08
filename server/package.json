@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeders/seed.js",
+    "format": "prettier --write \"**/*.{js,jsx}\""
+  },
+  "keywords": [],
+  "author": "Ricardo",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.6.2",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "graphql": "^16.3.0",
+    "mongoose": "^7.0.2",
+    "morgan": "^1.10.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.7.1"
+  }
+}
