@@ -4,7 +4,7 @@ import UTrackerImg from '../images/CryptoData.jpg';
 import GreenCtgImg from '../images/weatherApp.PNG';
 import CoinTrackerImg from '../images/Screenshot 2023-03-21 234059.png';
 import CavinImg from '../images/coder.GIF';
-
+import Charts from '../images/IMG_2169.PNG';
 const projects = [
   {
     id: uuidv4(),
@@ -29,6 +29,14 @@ const projects = [
       'A web application that allows Target team members to quickly and easily access location information for all Target stores and distribution centers in the US.',
     img: CoinTrackerImg,
     link: 'https://targetsearchapp.herokuapp.com/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Charts Dashboard',
+    desc:
+      'A web application that allows visulaization of data, crypto prices, weather and account customization.',
+    img: Charts,
+    link: 'https://chartsdashboard-production.up.railway.app/',
   },
   {
     id: uuidv4(),
