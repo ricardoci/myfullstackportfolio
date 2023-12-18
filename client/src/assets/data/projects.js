@@ -5,7 +5,16 @@ import GreenCtgImg from '../images/weatherApp.PNG';
 import CoinTrackerImg from '../images/Screenshot 2023-03-21 234059.png';
 import CavinImg from '../images/coder.GIF';
 import Charts from '../images/IMG_2169.PNG';
+import CollectorsVault from '../images/CollectorsVault_WM.png';
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Collectors Vault Ecommerce',
+    desc:
+      'An online hub for collectors! Its all about getting awesome treasures and making collections even better!',
+    img: CollectorsVault,
+    link: 'https://client-side.up.railway.app/',
+  },
   {
     id: uuidv4(),
     name: 'CryptoWeather',
