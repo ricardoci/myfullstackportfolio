@@ -37,7 +37,7 @@ const projects = [
     desc:
       'A web application that allows Target team members to quickly and easily access location information for all Target stores and distribution centers in the US.',
     img: CoinTrackerImg,
-    link: 'https://targetsearchapp.herokuapp.com/',
+    link: 'https://targetstorelocator-production.up.railway.app/',
   },
   {
     id: uuidv4(),
