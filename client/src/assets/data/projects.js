@@ -6,6 +6,7 @@ import CoinTrackerImg from '../images/Screenshot 2023-03-21 234059.png';
 import CavinImg from '../images/coder.GIF';
 import Charts from '../images/IMG_2169.PNG';
 import CollectorsVault from '../images/CollectorsVault_WM.png';
+import Pricema from '../images/pricemaai.png';
 const projects = [
   {
     id: uuidv4(),
@@ -14,6 +15,23 @@ const projects = [
       'An online hub for collectors! Its all about getting awesome treasures and making collections even better!',
     img: CollectorsVault,
     link: 'https://client-side.up.railway.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Target Property Locator',
+    desc:
+      'A web application that allows Target team members to quickly and easily access location information for all Target stores and distribution centers in the US.',
+    img: CoinTrackerImg,
+    link: 'https://targetstorelocator-production.up.railway.app/',
+  },
+  {
+    id: uuidv4(),
+    name: "PricemaAi",
+    desc:
+      'Web application using the ai tools to visualize and play with your data',
+    img: Pricema,
+    link: 'https://pricemaai-production.up.railway.app/',
+    
   },
   {
     id: uuidv4(),
@@ -31,14 +49,7 @@ const projects = [
     img: GreenCtgImg,
     link: 'https://ricardoci.github.io/WeatherForecastApp/',
   },
-  {
-    id: uuidv4(),
-    name: 'Target Property Locator',
-    desc:
-      'A web application that allows Target team members to quickly and easily access location information for all Target stores and distribution centers in the US.',
-    img: CoinTrackerImg,
-    link: 'https://targetstorelocator-production.up.railway.app/',
-  },
+ 
   {
     id: uuidv4(),
     name: 'Charts Dashboard',
@@ -47,13 +58,7 @@ const projects = [
     img: Charts,
     link: 'https://chartsdashboard-production.up.railway.app/',
   },
-  {
-    id: uuidv4(),
-    name: "Coming Soon",
-    desc:
-      'n/a',
-    img: CavinImg,
-  },
+  
   {
     id: uuidv4(),
     name: 'Coming Soon',
