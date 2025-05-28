@@ -3,7 +3,6 @@ import ProjectImg from '../images/coder.GIF';
 import UTrackerImg from '../images/CryptoData.jpg';
 import GreenCtgImg from '../images/weather.PNG';
 import CoinTrackerImg from '../images/targetlocator.png';
-
 import Charts from '../images/IMG_2169.PNG';
 import CollectorsVault from '../images/CollectorsVault_WM.png';
 import Pricema from '../images/pricemaai.PNG';
