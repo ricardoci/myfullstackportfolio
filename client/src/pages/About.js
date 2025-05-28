@@ -87,14 +87,11 @@ export default function About() {
               <div className="about__info">
                 <PText>
                   
-                  
-                  Originally from Lynwood, California, I have lived in various places throughout my life, including the hot desert of Desert Hot Springs, California. Though I never imagined living in such a warm climate, I have come to appreciate its unique aspects and have learned to enjoy my time here.
-                  <br /> <br />
-                  My passion for technology led me to start coding while attending college. As an avid watcher of YouTube videos showcasing the latest tech and product unboxings, I was particularly intrigued by Apple's iPhone UI and wondered how it was made. It wasn't until someone asked me "if you like tech, why aren't you coding?" that I realized that this was what I wanted to pursue. 
-                 
-                  <br />
-                  <br />
-                  I strive to continuously improve as a developer every day. My passion for learning new technologies stems from the desire to simplify tasks and enhance efficiency. My goal is to have fun while building innovative solutions that enable people to explore and fulfill their potential.
+              I'm a coding bootcamp graduate with a passion for building and problem-solving through code. What started as curiosity about how technology works quickly grew into a deep interest in software development. While I’ve explored a range of technologies, my core strength lies in the MERN stack—MongoDB, Express.js, React, and Node.js.
+
+One of my proudest accomplishments is a full-featured eCommerce web application I built from the ground up. I integrated real-world APIs like Shippo, Square, and USPS to manage logistics, payments, and shipping. Through this project, I’ve developed strong hands-on experience with building full-stack applications, managing CRUD operations, and creating seamless, user-focused interactions.
+
+Though I’m just starting my professional journey in tech, I bring consistent dedication, a fast-learning mindset, and a genuine enthusiasm for development. I'm excited to join a team where I can continue to grow, contribute meaningfully, and bring energy and creativity to real-world projects.
                 </PText>
               </div>
             
@@ -127,16 +124,14 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                items={['HTML', 'CSS', 'JavaScript', 'REACT', 'Tailwind','Bootstrap', "Handlebars"]}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express', 'MySQL', 'NoSQL']}
+                items={['Node', 'Express', 'MySQL', 'MongoDb','NoSQL']}
               />
-              <AboutInfoItem
-                title="Design"
-                items={['Figma', 'Procreate']}
-              />
+             
+              
             </div>
             {/* <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>

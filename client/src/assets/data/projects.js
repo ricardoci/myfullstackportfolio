@@ -3,17 +3,17 @@ import ProjectImg from '../images/coder.GIF';
 import UTrackerImg from '../images/CryptoData.jpg';
 import GreenCtgImg from '../images/weather.PNG';
 import CoinTrackerImg from '../images/targetlocator.png';
-import Charts from '../images/IMG_2169.PNG';
+// import Charts from '../images/IMG_2169.PNG';
 import CollectorsVault from '../images/CollectorsVault_WM.png';
-import Pricema from '../images/pricemaai.PNG';
+// import Pricema from '../images/pricemaai.PNG';
 const projects = [
   {
     id: uuidv4(),
-    name: 'Collectors Vault Ecommerce',
+    name: 'SilentExchange.store',
     desc:
       'An online hub for collectors! Its all about getting awesome treasures and making collections even better!',
     img: CollectorsVault,
-    link: 'https://client-side.up.railway.app/',
+    link: 'https://Silentexchange.store',
   },
   {
     id: uuidv4(),
@@ -23,15 +23,15 @@ const projects = [
     img: CoinTrackerImg,
     link: 'https://targetstorelocator-production.up.railway.app/',
   },
-  {
-    id: uuidv4(),
-    name: "PricemaAi",
-    desc:
-      'Web application using the ai tools to visualize and play with your data',
-    img: Pricema,
-    link: 'https://pricemaai-production.up.railway.app/',
+  // {
+  //   id: uuidv4(),
+  //   name: "PricemaAi",
+  //   desc:
+  //     'Web application using the ai tools to visualize and play with your data',
+  //   img: Pricema,
+  //   link: 'https://pricemaai-production.up.railway.app/',
     
-  },
+  // },
   {
     id: uuidv4(),
     name: 'CryptoWeather',
@@ -49,14 +49,7 @@ const projects = [
     link: 'https://ricardoci.github.io/WeatherForecastApp/',
   },
  
-  {
-    id: uuidv4(),
-    name: 'Charts Dashboard',
-    desc:
-      'A web application that allows visulaization of data, crypto prices, weather and account customization.',
-    img: Charts,
-    link: 'https://chartsdashboard-production.up.railway.app/',
-  },
+ 
   
   {
     id: uuidv4(),

@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "",
     "engines": {
-        "node": "v20.10.0",
-        "npm": "v10.2.5"
+        "node": ">=22.14.0",
+        "npm": ">=11.3.0"
     },
     "main": "server/server.js",
     "scripts": {
@@ -20,6 +20,7 @@
     "dependencies": {
         "concurrently": "^8.2.2",
         "styled-components": "^5.3.11",
+        "three": "^0.176.0",
         "webpack": "^5.89.0"
     }
 }

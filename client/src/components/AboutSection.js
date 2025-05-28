@@ -80,8 +80,7 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-          Full Stack Developer who is passionate about continuously expanding my skill set and keeping up-to-date with the latest technologies. Knowledgeable of backend and frontend development requirements. Handles any part of process with ease. Collaborative team player with excellent technical abilities with lots of on hand experience.
-          </PText>
+Passionate MERN stack developer and coding bootcamp graduate with hands-on experience building real-world applications. Eager to bring strong problem-solving skills and a love for learning to a collaborative tech team.          </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />
             <Button btnText="Read More" btnLink="/about" outline />

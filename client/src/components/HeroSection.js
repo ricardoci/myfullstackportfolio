@@ -161,7 +161,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-            I am University of Minnesota coding bootcamp grad with full stack dev skills. Passionate about innovative solutions & teamwork for enhancing functionality & delivering high-quality work.
+            {/* I am University of Minnesota coding bootcamp grad with full stack dev skills. Passionate about innovative solutions & teamwork for enhancing functionality & delivering high-quality work. */}
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
